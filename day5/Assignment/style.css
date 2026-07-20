@@ -1,0 +1,81 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:100vh;
+    background:#f2f2f2;
+}
+
+.container{
+    width:800px;
+    padding:15px;
+    border:3px solid black;
+
+    display:grid;
+    gap:15px;
+
+    grid-template-columns:2fr 1fr 1fr;
+    grid-template-rows:100px 100px 100px;
+
+    grid-template-areas:
+    "Box1 Box2 Box3"
+    "Box4 Box5 Box5"
+    "Box6 Box7 Box8";
+}
+
+.box{
+    display:grid;
+    place-items:center;
+
+    font-size:22px;
+    font-weight:bold;
+    color:white;
+    border:2px solid black;
+}
+
+
+.Box1{
+    grid-area:Box1;
+    background:#e74c3c;
+}
+
+.Box2{
+    grid-area:Box2;
+    background:#3498db;
+}
+
+.Box3{
+    grid-area:Box3;
+    background:#2ecc71;
+}
+
+.Box4{
+    grid-area:Box4;
+    background:#f39c12;
+}
+
+.Box5{
+    grid-area:Box5;
+    background:#8e44ad;
+}
+
+.Box6{
+    grid-area:Box6;
+    background:#16a085;
+}
+
+.Box7{
+    grid-area:Box7;
+    background:#d35400;
+}
+
+.Box8{
+    grid-area:Box8;
+    background:#2c3e50;
+}
