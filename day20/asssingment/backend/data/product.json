@@ -1,0 +1,30 @@
+[
+    {
+        "id":1,
+        "title":"Laptop",
+        "price":55000,
+        "category":"Electronics",
+        "image":"https://via.placeholder.com/150"
+    },
+    {
+        "id":2,
+        "title":"Headphone",
+        "price":2500,
+        "category":"Electronics",
+        "image":"https://via.placeholder.com/150"
+    },
+    {
+        "id":3,
+        "title":"T-Shirt",
+        "price":999,
+        "category":"Men",
+        "image":"https://via.placeholder.com/150"
+    },
+    {
+        "id":4,
+        "title":"Shoes",
+        "price":1999,
+        "category":"Men",
+        "image":"https://via.placeholder.com/150"
+    }
+]

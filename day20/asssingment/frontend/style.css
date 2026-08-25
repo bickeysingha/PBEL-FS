@@ -1,0 +1,33 @@
+body{
+    font-family:Arial;
+    margin:20px;
+}
+
+input{
+    display:block;
+    margin:10px 0;
+    padding:8px;
+    width:300px;
+}
+
+button{
+    padding:8px 15px;
+    cursor:pointer;
+}
+
+#products{
+    display:grid;
+    grid-template-columns:repeat(4,1fr);
+    gap:20px;
+}
+
+.card{
+    border:1px solid gray;
+    padding:10px;
+    text-align:center;
+}
+
+img{
+    width:120px;
+    height:120px;
+}
